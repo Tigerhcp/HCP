@@ -1,96 +1,163 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
-    /* background-color:rgb(105, 94, 63); */
-    /* background-color:rgb(86, 117, 178); */
-    background-color:midnightblue;
-    width: 1520px;
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+    img {
+        height: 150px;
+    }
 }
-.navbar{
-    position:sticky;
+
+body {
+    background-color: #fdffe9;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; 
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    position: sticky;
     top: 0;
     z-index: 1000;
-    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-.navbar-brand{
-    font-size: 50px;
+
+.navbar-brand {
+    font-size: 2.5rem;
     font-weight: 900;
     color: midnightblue;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
-.bg-body-tertiary{
-    background-color: #dddd !important;
+
+.bg-body-tertiary {
+    background-color: rgba(255, 255, 255, 0.1) !important;
 }
-img{
-    width: 5px;
+
+img {
+    /* object-fit: cover;
     height: 200px;
+    /* width: 100%;
+    border-radius: 10px;
 }
-.card{
-    width: 14rem;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    transition: 0.5s;
+
+/* Start Cards */a  
+.card {
+    margin: 10px auto; 
+    transition: transform 0.5s, box-shadow 0.3s;
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.card:hover{
-    transform: scale(1.2);
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: 0.7s;
 }
-.card-body{
+.card-body {
     text-align: center;
-    height: 170px;
+    height: 190px;
 }
-.card-text{
-    font-size: x-small;
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: midnightblue;
 }
-#btn2{
+.card-text {
+    font-size: 12px;
+    color:black;
+}
+/* End Cards */
+
+#btn2 {
     position: absolute;
-    bottom: 6px;
-    right: 35px;
+    bottom: 15px;
+    right: 90px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
+
+#btn2:hover {
+    background-color: #e68900;
+}
+
 .section {
-    padding: 20px 0;
+    padding: 40px 20px;
     text-align: center;
-  }
+}
+
 .section h2 {
     margin-bottom: 20px;
-    font-size: 2rem;
-    color:wheat;
+    font-size: 2.5rem;
+    color: midnightblue;
+    text-transform: uppercase;
 }
-.section p{
-    font-size: 0.9rem;
-    color: #e4fb72;
+
+.section p {
+    font-size: 1rem;
+    color: #9680fc;
 }
+
 p6{
     color: red;
     position: absolute;
     left: 33px;
     bottom: 14px;
 }
+p3{
+    color: red;
+    position: absolute;
+    right: 105px;
+    bottom: 55px;
+}
+
 .footer {
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     margin-top: 20px;
-  }
-.carousel-inner img{
+    background-color: #333;
+    font-size: 1rem;
+}
+
+.carousel-inner img {
     height: 700px;
-    width: 1320px;
-    position: relative;
-    left: 1px;
-    top: 0;
+    width: 100%; 
+    /* object-fit: cover; 
+    border-radius: 10px;
 }
-i{
-    font-size: 44px;
+
+i {
+    font-size: 2rem;
+    margin: 5px;
 }
-a{
+
+a {
     text-decoration: none;
+    transition: color 0.3s; 
 }
-.ri-whatsapp-line{
+
+a:hover {
+    color: #ff9800; 
+}
+
+.ri-whatsapp-line {
     color: green;
 }
-.ri-youtube-fill{
+
+.ri-youtube-fill {
     color: red;
 }
