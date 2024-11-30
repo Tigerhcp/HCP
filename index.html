@@ -6,10 +6,11 @@
     <title>HCP Paints</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="Style S6.css">
+    <link rel="stylesheet" href="style S6.css">
 </head> 
 
 <body>
+    <!-- Navbar -->
     <nav id="home" class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">HCP</a>
@@ -22,7 +23,7 @@
                 <a class="nav-link active" aria-current="page" href="#carouselExampleAutoplaying">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#vv">Intro video</a>
+                <a class="nav-link active" href="#vv">Intro Video</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#offers">Offers</a>
@@ -37,7 +38,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                <a class="nav-link active" href="#contact">Contact</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -46,179 +47,194 @@
             </form>
           </div>
         </div>
-      </nav>
+    </nav>
 
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <!-- Carousel -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="2500">
-            <img src="1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-item active" data-bs-interval="2500">
+                <img src="1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+                <img src="2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+                <img src="3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item active" data-bs-interval="2500">
+              <img src="4.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="2500">
-            <img src="2.jpg" class="d-block w-100" alt="...">
+              <img src="5.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="2500">
-            <img src="3.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval="2500">
-            <img src="4.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval="2500">
-            <img src="5.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval="2500">
-            <img src="6.jpg" class="d-block w-100" alt="...">
+              <img src="6.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
-      </div>
-
-    <div class="container">
-        <div class="row">
-            <!-- بداية الدهانات الخارجية -->
-            <div id="exterior" class="card">
-                <img src="Graffito.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Graffito</h5>
-                  <p class="card-text">
-                    acrylic decorative paint with high quality quartz granules, universities of weather conditions and beyond strong adhesion to surfaces.</p>
-                    <button id="btn2" type="button" class="btn btn-warning">Buy now</button>
-                    <p6>235 EGP</p6>
-                </div>
-              </div>
-              <div id="exterior" class="card">
-                <img src="Biostone.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Biostone</h5>
-                  <p class="card-text">
-                    high quality velvet water-based decorative paint designed to give an attractive velvet shape in shades of color the interlocking is chatacterized.</p>
-                    <button id="btn2" type="button" class="btn btn-warning">Buy now</button>
-                    <p6>300 EGP</p6>
-                </div>
-              </div>
-              <div id="exterior" class="card">
-                <img src="Nanotex 7000.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Nanotex 7000</h5>
-                  <p class="card-text">
-                    nanotex 7000 is a water-based matte emulsion paint high quality on the basis of acrylic copolymer.</p>
-                    <button id="btn2" type="button" class="btn btn-warning">Buy now</button>
-                    <p6>728 EGP</p6>
-                </div>
-              </div>
-              <div id="exterior" class="card">
-                <img src="Payton 2000.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Payton 2000</h5>
-                  <p class="card-text">
-                    payton 2000 is a premium glossy interior and exterior component paint of pure acrylic emulsion to ensure stability resistance.</p>
-                    <button id="btn2" type="button" class="btn btn-warning">Buy now</button>
-                    <p6>1060 EGP</p6>
-                </div>
-              </div>
-              <div id="exterior" class="card">
-                <img src="Payton 2500.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Payton 2500</h5>
-                  <p class="card-text">
-                    payton 2500 is a premium glossy interior and exterior component paint of pure acrylic emulsion to ensure stability resistance.</p>
-                    <button id="btn2" type="button" class="btn btn-warning">Buy now</button>
-                    <p6>1107 EGP</p6>
-                </div>
-              </div>
-              <!-- نهاية الدهانات الخارجية -->
-
-              <!-- بداية الدهانات الانشائية -->
-              <div id="interior" class="card">
-                <img src="Baison 100.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Baison 100</h5>
-                  <p class="card-text">bison 100 is an internal acrylic copolymer putty with ready to use water-based foundation that contains special additives which provides excellent performance.</p>
-                  <button id="btn2" type="button" class="btn btn-warning">Buy now</button>
-                    <p6>60 EGP</p6>
-                </div>
-              </div>
-              <div id="interior" class="card">
-                <img src="Baison 500.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Baison 500</h5>
-                  <p class="card-text">
-                    bison 500 is an internal acrylic copolymer putty with ready to use water-based foundation that contains special additives which provides excellent performance.</p>
-                    <button id="btn2" type="button" class="btn btn-warning">Buy now</button>
-                    <p6>80 EGP</p6>
-                </div>
-              </div>
-              <div id="interior" class="card">
-                <img src="Super Plast 300.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Super Plast 300</h5>
-                  <p class="card-text">
-                    super plast 300 is an internal water-based matte coating high quality on the basis of acrylic copolymer.</p>
-                    <button id="btn2" type="button" class="btn btn-warning">Buy now</button>
-                    <p6>364 EGP</p6>
-                </div> 
-              </div>
-              <div id="interior" class="card">
-                <img src="Plasic 333.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Plasic 333</h5>
-                  <p class="card-text">
-                    economical plastic 333 is a high quality internal water-based matting paint based on acrylic copolymer.</p>
-                    <button id="btn2" type="button" class="btn btn-warning">Buy now</button>
-                    <p6>212 EGP</p6>
-                </div>
-              </div>
-              <div id="interior" class="card">
-                <img src="No Drop.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">No Drop</h5>
-                  <p class="card-text">
-                    water-based emulsion paint for elastic resin materials acrylic and special additives.</p>
-                    <button id="btn2" type="button" class="btn btn-warning">Buy now</button>
-                  <p6>762 EGP</p6>
-                </div>
-              </div>
-              <!-- نهاية الدهانات الانشائية -->
-        </div>
-
-        <div class="container d-flex justify-content-center align-items-center vh-100">
-            <div id="vv" class="video-container">
-                <video class="rounded shadow-lg" controls poster="10.jpg" style="max-width: 640px;">
-                    <source src="HCP.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div>
-
     </div>
-    
+
+<!-- Product Cards -->
+<div class="container my-5">
+  <h2 class="text-center mb-4">Our Products</h2>
+  <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-5">
+      <!-- Exterior Paints -->
+      <div class="col">
+          <div class="card">
+              <img src="Graffito.jpg" class="card-img-top" alt="Graffito">
+              <div class="card-body">
+                  <h5 class="card-title">Graffito</h5>
+                  <p class="card-text">Acrylic decorative paint with high-quality quartz granules.</p>
+                  <button id="btn2" class="btn btn-warning">Buy now</button>
+                  <p3>235 EGP</p3>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div class="card">
+              <img src="Biostone.jpg" class="card-img-top" alt="Biostone">
+              <div class="card-body">
+                  <h5 class="card-title">Biostone</h5>
+                  <p class="card-text">High-quality velvet water-based decorative paint for an attractive finish.</p>
+                  <button id="btn2" class="btn btn-warning">Buy now</button>
+                  <p3>300 EGP</p3>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div class="card">
+              <img src="Nanotex 7000.jpg" class="card-img-top" alt="Nanotex 7000">
+              <div class="card-body">
+                  <h5 class="card-title">Nanotex 7000</h5>
+                  <p class="card-text">Water-based matte emulsion paint with high-quality acrylic copolymer.</p>
+                  <button id="btn2" class="btn btn-warning">Buy now</button>
+                  <p3>728 EGP</p3>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div class="card">
+              <img src="Payton 2000.jpg" class="card-img-top" alt="Payton 2000">
+              <div class="card-body">
+                  <h5 class="card-title">Payton 2000</h5>
+                  <p class="card-text">Premium glossy interior and exterior paint with acrylic emulsion.</p>
+                  <button id="btn2" class="btn btn-warning">Buy now</button>
+                  <p3>1060 EGP</p3>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div class="card">
+              <img src="Payton 2500.jpg" class="card-img-top" alt="Payton 2500">
+              <div class="card-body">
+                  <h5 class="card-title">Payton 2500</h5>
+                  <p class="card-text">Glossy premium paint for interior and exterior surfaces.</p>
+                  <button id="btn2" class="btn btn-warning">Buy now</button>
+                  <p3>1107 EGP</p3>
+              </div>
+          </div>
+      </div>
+      
+      <!-- Interior Paints -->
+      <div class="col">
+          <div class="card">
+              <img src="Baison 100.jpg" class="card-img-top" alt="Baison 100">
+              <div class="card-body">
+                  <h5 class="card-title">Baison 100</h5>
+                  <p class="card-text">Water-based acrylic copolymer putty with excellent performance.</p>
+                  <button id="btn2" class="btn btn-warning">Buy now</button>
+                  <p3>60 EGP</p3>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div class="card">
+              <img src="Baison 500.jpg" class="card-img-top" alt="Baison 500">
+              <div class="card-body">
+                  <h5 class="card-title">Baison 500</h5>
+                  <p class="card-text">Ready-to-use water-based foundation putty with additives.</p>
+                  <button id="btn2" class="btn btn-warning">Buy now</button>
+                  <p3>80 EGP</p3>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div class="card">
+              <img src="Super Plast 300.jpg" class="card-img-top" alt="Super Plast 300">
+              <div class="card-body">
+                  <h5 class="card-title">Super Plast 300</h5>
+                  <p class="card-text">High-quality matte water-based coating with acrylic copolymer.</p>
+                  <button id="btn2" class="btn btn-warning">Buy now</button>
+                  <p3>364 EGP</p3>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div class="card">
+              <img src="Plasic 333.jpg" class="card-img-top" alt="Plasic 333">
+              <div class="card-body">
+                  <h5 class="card-title">Plasic 333</h5>
+                  <p class="card-text">Economical water-based matte interior paint with acrylic copolymer.</p>
+                  <button id="btn2" class="btn btn-warning">Buy now</button>
+                  <p3>212 EGP</p3>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div class="card">
+              <img src="No Drop.jpg" class="card-img-top" alt="No Drop">
+              <div class="card-body">
+                  <h5 class="card-title">No Drop</h5>
+                  <p class="card-text">Water-based emulsion paint with elastic resin materials.</p>
+                  <button id="btn2" class="btn btn-warning">Buy now</button>
+                  <p3>762 EGP</p3>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+    <!-- Intro Video -->
+    <div id="vv" class="container text-center py-5">
+        <div class="ratio ratio-16x9">
+            <video controls poster="10.jpg">
+                <source src="HCP.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
     <!-- Offers Section -->
-        <section id="offers" class="section">
-        <h2>Special Offers</h2>
-        <p>Get up to 20% off on selected products this month!</p>
+    <section id="offers" class="section bg-light py-5 text-center">
+        <div class="container">
+            <h2>Special Offers</h2>
+            <p>Get up to 20% off on selected products this month!</p>
+        </div>
     </section>
 
     <!-- Contact Section -->
-        <section id="contact" class="section">
-        <h2>Contact Us</h2>
-        <p>Email: hcp@paintsworld.com</p>
-        <p>Phone: +20 100 770 0721</p>
-        <a href="https://www.facebook.com/HcpPaints"><i class="ri-facebook-box-fill"></i></a>
-        <a href="https://api.whatsapp.com/send?phone=%2B201007700721&context=ARC_FpBHe8jWHvP5EcJYeE_wAs1nOTmcfAyogHyEi-YqTdzKW6kmeI1jesbTXG2h2dGmTKC7YTWCrRehtH0HUxIJWthtYqKK96JyHpMwCnOZgXltdXMENWyXHyhHSG80mtkryRYOdQ3AIb_st1ApMYshZA&source=FB_Page&app=facebook&entry_point=page_cta"><i class="ri-whatsapp-line"></i></a>
-        <a href="https://www.youtube.com/"><i class="ri-youtube-fill"></i></a>
+    <section id="contact" class="section bg-secondary text-light py-5 text-center">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: hcp@paintsworld.com</p>
+            <p>Phone: +20 100 770 0721</p>
+            <a href="#" class="text-light mx-2"><i class="ri-facebook-box-fill"></i></a>
+            <a href="#" class="text-light mx-2"><i class="ri-whatsapp-line"></i></a>
+            <a href="#" class="text-light mx-2"><i class="ri-youtube-fill"></i></a>
+        </div>
     </section>
 
     <!-- Footer -->
-        <footer class="footer">
+    <footer class="footer bg-dark text-light py-3 text-center">
         <p>&copy; 2024 Paint World. All rights reserved.</p>
     </footer>
 
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
